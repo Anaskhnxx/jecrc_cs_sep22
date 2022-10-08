@@ -270,12 +270,15 @@ GIT COMMAND. (PYTHON TRAINING)
 TYPE CMD IN ADREESS BAR THEN ENTER 
 --------------
 
-Git init.       # initialize the git folder  
-git add.        # add all files / folders in git folder 
+Git init        # initialize the git folder  
+git add .        # add all files / folders in git folder 
 git config user.name  "ANAS KHAN"
 git config user.email  "anaskhan93511@gmail.com" 
 git remote add origin  "yourrepolink.git"
 
 git commit -m "anyymessage"
-git push - u origin main 
+git push - u origin main   # or master change
+
+
+
 
