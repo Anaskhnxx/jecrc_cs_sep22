@@ -1,0 +1,511 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "1c80954b-bd7a-4f59-9ff1-fc7086590f79",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3+4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c893266f-024c-46c2-b06b-627f70944693",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bcd94b15-bda7-4888-821f-8bd7757484e9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "b1adec06-abe0-4f23-8fd9-ed496a7ba425",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "anas khan\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('anas khan')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "b7fc7e71-8c21-4ec1-9559-d34abdf5be03",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(2,)"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def fun(*x):\n",
+    "    return(x)\n",
+    "fun(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "2abfe7eb-dc71-445b-a6b0-e1f053531ebc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(2, 3, 4, 5)"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fun(2,3,4,5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7d9ed6ca-eedd-4208-991d-2a49465efa09",
+   "metadata": {},
+   "source": [
+    "# 1st heading"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d58115b6-8374-4604-9cb9-8e8cee2819b8",
+   "metadata": {},
+   "source": [
+    "## second heading "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "21353b7d-3a61-4e73-8c37-bf532971891c",
+   "metadata": {},
+   "source": [
+    "### third heding"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d15cb9f2-8bc7-4c21-8d5d-a72abf2009ad",
+   "metadata": {},
+   "source": [
+    "* this is a first point \n",
+    "* this is second point "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d00f62e2-0f02-4b9e-8afd-9231c9d3119e",
+   "metadata": {},
+   "source": [
+    "1. this is a third point \n",
+    "2. this is fourth point "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "82fed7c0-a344-48fc-bd30-dd41485eea90",
+   "metadata": {},
+   "source": [
+    "# os"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "a196b285-4a73-4293-bfae-85695ccb1817",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "fd34a67c-8b60-42bf-9d56-74ab0c127187",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<function nt.getcwd()>"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "os.getcwd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "ccdcb166-9f9a-4176-b6ff-42bad4a6eea4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'C:\\\\Users\\\\user\\\\Desktop\\\\python training\\\\ancnda dy 1'"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "os.getcwd()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "46f474a9-3d3d-4252-8b70-4e4d1604011d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "os.chdir('C:\\\\Users\\\\user\\\\Desktop\\\\python training\\\\day2')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "090e8885-c643-4f84-9e34-1949ddd97d77",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'C:\\\\Users\\\\user\\\\Desktop\\\\python training\\\\day2'"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "os.getcwd()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "eeea12cd-a511-42cc-aa4b-68a3e5e4fd81",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['.ipynb_checkpoints',\n",
+       " 'ancnda dy 1',\n",
+       " 'day2',\n",
+       " 'introduction.txt',\n",
+       " 'prgrm 3.py',\n",
+       " 'prgrm2.py',\n",
+       " 'prgrm4.py',\n",
+       " 'prgrm_1.py',\n",
+       " 'prgrm_5.py']"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "os.listdir('C:\\\\Users\\\\user\\\\Desktop\\\\python training')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5e8ce85d-d560-43f4-a6e8-8d13c662d785",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "bb5995c9-7b58-4082-8abc-2fe6d4c45afd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "c0f9ed96-c5aa-4434-b7ca-5f086d0f8d51",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "os.mkdir('empty_khan')\n",
+    "#to add a folder "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "fa7e010c-1ace-4837-afd8-1364ebaa8ecb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "os.rmdir('empty_khan')\n",
+    "#to remove a folder"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "607f6953-a626-4de6-adcf-a1d72be7bb54",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e38d2636-0774-48a4-9ff5-8e3520de57d5",
+   "metadata": {},
+   "source": [
+    "# random"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "7dafe346-40ea-40b4-990c-6a4d1c13ef97",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import random"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "b131753d-2402-4243-bad8-614e20e89850",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.8101647347193232\n"
+     ]
+    }
+   ],
+   "source": [
+    "val = random.random()\n",
+    "print(val)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "92abcda3-071c-42fb-923b-3305c9235f4c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "val2 = random.randint(1,10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "5670f8ae-6d7a-4cc1-a761-d5623246e804",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(val2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "7a5ef708-f241-4aa2-b027-aaa781b068cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hi\n"
+     ]
+    }
+   ],
+   "source": [
+    "m = ['hi', 'hello', 'hayy', 'howdy']\n",
+    "val = random.choice(m)\n",
+    "print(val)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "9adbd92a-7326-464c-9af2-1cde74557781",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['howdy', 'hayy', 'hello']\n"
+     ]
+    }
+   ],
+   "source": [
+    "m = ['hi', 'hello', 'hayy', 'howdy']\n",
+    "val = random.choices(m,k=3)\n",
+    "print(val)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0c2cead5-780d-4557-ae77-94ce36ad1cd5",
+   "metadata": {},
+   "source": [
+    "#shuffle\n",
+    "random.shuffle(m)\n",
+    "print(m)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2c4bf3f8-c6f6-4c8e-890b-572af3193698",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8a0aa586-466d-428d-bc6d-c91a184e6ee4",
+   "metadata": {},
+   "source": [
+    "# shuffle"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "bdc15340-5b42-426d-90cf-8a408935d692",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import random"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "65bb68ee-682e-4460-8f92-ae29ed3f19c8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['sdfg', 'hii', ' jello', 'sac']\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=['hii', ' jello', 'sac', 'sdfg']\n",
+    "random.shuffle(m)\n",
+    "print(m)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4f63808f-2137-4f76-8def-ee8bd227a909",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "79dafaaa-83ff-4f8a-9a03-b46d7b4ada75",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
