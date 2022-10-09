@@ -277,8 +277,5 @@ git config user.email  "anaskhan93511@gmail.com"
 git remote add origin  "yourrepolink.git"
 
 git commit -m "anyymessage"
-git push - u origin main   # or master change
-
-
-
+git push - u origin main 
 
