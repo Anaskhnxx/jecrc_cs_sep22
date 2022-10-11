@@ -279,3 +279,11 @@ git remote add origin  "yourrepolink.git"
 git commit -m "anyymessage"
 git push - u origin main 
 
+
+----------------------------------------------------------------------------------------------------
+
+> a function can be assign to be an identifier
+> a function can be taken as input argument as an another function 
+> a function can be define inside a pyhton function 
+> a function can ruturned from a function 
+

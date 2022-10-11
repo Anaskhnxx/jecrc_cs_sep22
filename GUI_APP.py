@@ -32,7 +32,7 @@ ttk.Label(app, text='Result is:').place(x=100, y=300)
 ttk.Label(app, textvariable=result, font=('arial', 22)).place(x=100, y=330)
 # def abc ():
 #   print ('wow')
-# msg.set('jp tera man kare ')
+# msg.set('jo tera man kare ')
 
 # ttk.Button(app, text = 'isko click krdo' , command  = abc ).place(x= 100 , y=100)
 
