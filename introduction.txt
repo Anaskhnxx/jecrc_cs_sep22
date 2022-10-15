@@ -287,3 +287,29 @@ git push - u origin main
 > a function can be define inside a pyhton function 
 > a function can ruturned from a function 
 
+
+------------------------------------------------------------------------------------------------
+
+MACHINE LEARNING : 
+-----------------
+scikit-learn is a library for machine learning  
+Bring the data 
+preprocessing/ analysis
+
+split data  (training , testing )
+from sklearn.model_selection import train_test_split 
+xtrain , xtest , ytrain , ytest = train_test_split(
+features , target ,test_size = 0.25,
+random_state = 101)
+
+TRAIN THE MODEL 
+
+from sklearn.linear_model import LinearRegression 
+model = LinearRegression()
+model.fit(xtrain , ytrain)
+
+Model Evaluation 
+model.score(xtest , ytest) * 100
+
+Deploy The Model
+ypred = model.predict(any_query_data)
